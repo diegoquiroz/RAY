@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Contacto Botgard</title>
+
+    <!-- CSS  -->
+    <link href="../../min/plugin-min.css"rel="stylesheet">
+    <!-- <link href="../../min/custom-min.css"rel="stylesheet" > -->
+    <link href="../../css/style.css"rel="stylesheet" >
+    <link rel="apple-touch-icon" href="../../img/app_icon.png">
+</head>
+<body id="top" class="scrollspy pages pages-blue">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+<div class="navbar-fixed">
+   <nav id="nav_f" class="default_color" role="navigation">
+       <div class="container">
+           <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Botgard</a>
+           <ul id="nav-mobile" class="right" style="font-size:14px;line-height:64px">
+               <li><a href="http://botgard.com">Inicio</a></li>
+               <li><a href="http://blog.botgard.com">Blog</a></li>
+               <li><a href="p/dev">Dev</a></li>
+               <li><a href="p/contact">Contacto</a></li>
+           </ul>
+           <ul id="nav-mobile" class="side-nav" style="font-size:14px;line-height:64px">
+               <li><a href="http://botgard.com">Inicio</a></li>
+               <li><a href="http://blog.botgard.com">Blog</a></li>
+               <li><a href="p/dev">Dev</a></li>
+               <li><a href="p/contact">Contacto</a></li>
+           </ul>
+           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+       </div>
+   </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>Gracias por contactarnos, en breve responderemos al mensaje</span>
+        </h1>
+    </div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">
+        <div class="row">
+<!--             <div class="col l3 s12">
+                <h5 class="white-text">joashpereira.com</h5>
+                <ul>
+                    <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
+                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
+                </ul>
+            </div> -->
+            <ul style="display:flex;flex-direction:row;display:-webkit-flex;-webkit-flex-direction:row;justify-content:center">
+                    <li><a href="https://github.com/botgard" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa fa-fw fa-github fa-2x" style="color:white;margin:0 5px;"></i></a>
+                    </li>
+                    <li><a href="http://twitter.com/botgards" class="btn-social btn-outline" title="Twitter"><i class="fa fa-fw fa-twitter fa-2x" style="color:white;margin:0 5px;"></i></a>
+                    </li>
+                    <li><a href="mailto:HelloBotgard@gmail.com" class="btn-social btn-outline" title="Email"><i class="fa fa-fw fa-envelope fa-2x" style="color:white;margin:0 5px;"></i></a>
+                    </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+             <a class="white-text" href="http://botgard.com">© Botgard</a>. 2015 Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>
