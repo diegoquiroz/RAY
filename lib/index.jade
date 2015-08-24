@@ -35,41 +35,9 @@ head
     
     //-INCLUDE HEADER------>
     include ./header/template.jade
-      
-    // Intro and service
-    #intro.section.scrollspy
-      .container
-        .row
-          .col.s12
-            h2.center.header.text_h2
-              | Botgard es un nucleo de diferentes webs las cuales se encargan de diversas funciones y son ejecutadas con 
-              span.span_h2  Amor
-          |             
-          .col.s12.m4.l4
-            .center.promo.promo-example
-              i.mdi.mdi-code-array
-              |                     
-              h5.promo-caption Dev
-              |                     
-              p.light.center
-                | Las aplicaciones m&oacute;viles y web han cambiado la manera en que vivimos, y en Botgard estamos comprometidos a apoyar ese cambio.
-          |             
-          .col.s12.m4.l4
-            .center.promo.promo-example
-              i.mdi.mdi-material-ui
-              |                     
-              h5.promo-caption Design
-              |                     
-              p.light.center
-                | Creemos que el arte es una parte esencial en la vida, es por eso que en Botgard te traemos el mejor material en dise&ntilde;o.
-          |             
-          .col.s12.m4.l4
-            .center.promo.promo-example
-              i.mdi.mdi-newspaper
-              |                     
-              h5.promo-caption Blog
-              |                     
-              p.light.center Logramos que leas las noticias como si estuvieras en el lugar de los hechos.
+    //-INCLUDE INTRO------>
+    include ./intro/template.jade  
+    
     // Work
     #work.section.scrollspy
       .container
@@ -150,7 +118,7 @@ head
         |         
         .col-xx-6(style='text-align:center')
           p.margin-top-no
-            a.btn.btn-red.waves-attach.waves-button.waves-light.waves-effect(href=' p/proyects') Ver m&aacute;s
+            a.btn.btn-red.waves-attach.waves-button.waves-light.waves-effect(href=' p/proyects') Ver más
     //-INCLUDE PARALLAX------>
     include ./parallax/template.jade
     //-INCLUDE ABILITIES------>
@@ -166,7 +134,7 @@ head
               h2.mdl-card__title-text Diego Quiroz
             |                 
             .mdl-card__supporting-text
-              | CEO &amp; Frontend
+              | CEO & Frontend
             |                 
             .mdl-card__actions.mdl-card--border
               ul(style='display:flex;flex-direction:row;display:-webkit-flex;-webkit-flex-direction:row')
@@ -191,7 +159,7 @@ head
               h2.mdl-card__title-text Amstrong Monachello
             |                 
             .mdl-card__supporting-text
-              | COO &amp; iOS Dev
+              | COO & iOS Dev
             |                 
             .mdl-card__actions.mdl-card--border
               ul(style='display:flex;flex-direction:row;display:-webkit-flex;-webkit-flex-direction:row')
@@ -237,7 +205,7 @@ head
               h2.mdl-card__title-text Alejandro Vazquez
             |                 
             .mdl-card__supporting-text
-              | CIO &amp; Android Dev
+              | CIO & Android Dev
             |                 
             .mdl-card__actions.mdl-card--border
               ul(style='display:flex;flex-direction:row;display:-webkit-flex;-webkit-flex-direction:row')
