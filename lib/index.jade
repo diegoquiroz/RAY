@@ -220,27 +220,8 @@ head
                 li
                   a.btn-social.btn-outline(href='mailto:alejandro_vazquez98@gmail.com', title='Email')
                     i.fa.fa-fw.fa-envelope.fa-2x(style='color:black')
-    // Footer
-    footer#contact.page-footer.default_color.scrollspy
-      .container
-        .row
-          ul(style='display:flex;flex-direction:row;display:-webkit-flex;-webkit-flex-direction:row;justify-content:center')
-            li
-              a.btn-social.btn-outline(href='https://github.com/botgard', data-toggle='tooltip', data-placement='top', title='Github')
-                i.fa.fa-fw.fa-github.fa-2x(style='color:white;margin:0 5px;')
-            |                     
-            li
-              a.btn-social.btn-outline(href='http://twitter.com/botgards', title='Twitter')
-                i.fa.fa-fw.fa-twitter.fa-2x(style='color:white;margin:0 5px;')
-            |                     
-            li
-              a.btn-social.btn-outline(href='mailto:HelloBotgard@gmail.com', title='Email')
-                i.fa.fa-fw.fa-envelope.fa-2x(style='color:white;margin:0 5px;')
-      |     
-      .footer-copyright.default_color
-        .container
-          a.white-text(href='http://botgard.com') &copy; Botgard
-          | . 2015 Todos los derechos reservados.
+    //-INCLUDE FOOTER------>
+    include ./footer/template.jade
     // Scripts
     script(src='public/js/min/plugin-min.js')
     |     
