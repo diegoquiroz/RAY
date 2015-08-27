@@ -13,7 +13,7 @@ html
       // CSS
       link(rel='stylesheet', href='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.red-blue.min.css')
       |     
-      link(rel='stylesheet', href='../../public/css/plugin.css')
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700', type='text/css')
       |     
       link(rel='stylesheet', href='../../public/css/style.css')
       |     
@@ -23,15 +23,9 @@ html
       |     
       link(rel='apple-touch-icon', href='../../img/app_icon.png')
     body#top.scrollspy.pages.pages-blue
-      // Pre Loader
-      #loader-wrapper
-        #loader
-        |     
-        .loader-section.section-left
-        |     
-        .loader-section.section-right
+      header
       //-INCLUDE HEADER------>
-      include ./header/nav/template.jade
+      include .././header/nav/template.jade
       // Hero
       #index-banner.section.no-pad-bot
         .container
@@ -103,11 +97,12 @@ html
               .mdl-card__actions.mdl-card--border
                 a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(href='http://www.macciti.com/pages/ease/')
                   | Project Link
-    //-INCLUDE FOOTER------>
+      //-INCLUDE FOOTER------>
       footer(id="contact" class="page-footer default_color scrollspy")
         include .././footer/template.jade
-      // Scripts
-      script(src='../../public/js/min/plugin-min.js')
-      script(src='../../public/js/min/custom-min.js')
-      // Materialize JS
-      script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')
+        // Scripts
+        script(src='../../public/js/min/plugin-min.js')
+        script(src='../../public/js/min/custom-min.js')
+        // Frameworks
+        script(src='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')

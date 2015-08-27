@@ -7,13 +7,13 @@ html
     |     
     meta(name='theme-color', content='#2196F3')
     |     
-    title Proyectos
+    title BotgarTeam
     // Materialize CSS
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css')
     // CSS
     link(rel='stylesheet', href='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.red-blue.min.css')
     |     
-    link(rel='stylesheet', href='../../public/css/plugin.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700', type='text/css')
     |     
     link(rel='stylesheet', href='../../public/css/style.css')
     |     
@@ -23,28 +23,21 @@ html
     |     
     link(rel='apple-touch-icon', href='../../img/app_icon.png')
   body#top.scrollspy.pages.pages-alt
-      // Pre Loader
-      #loader-wrapper
-        #loader
-        |     
-        .loader-section.section-left
-        |     
-        .loader-section.section-right
-      //-INCLUDE HEADER------>
-      include ./header/nav/template.jade
-      // Hero
-      #index-banner.section.no-pad-bot
-        .container
-          h1.text_h.center.header.cd-headline.letters.type
-            span #TeamBotgard
-            div(id="team" class="section scrollspy")
+    //-INCLUDE HEADER------>
+    include .././header/nav/template.jade
+    // Header
+    #index-banner.section.no-pad-bot
+      .container
+        h1.text_h.center.header.cd-headline.letters.type
+          span #TeamBotgard
     //-INCLUDE TEAM------>
-      include template.jade
-      //-INCLUDE FOOTER------>
-        footer(id="contact" class="page-footer default_color scrollspy")
-          include .././footer/template.jade
-        // Scripts
-        script(src='../../public/js/min/plugin-min.js')
-        script(src='../../public/js/min/custom-min.js')
-        // Materialize JS
-        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')
+    include template.jade
+    //-INCLUDE FOOTER------>
+    footer(id="contact" class="page-footer default_color scrollspy")
+      include .././footer/template.jade
+      // Scripts
+      script(src='../../public/js/min/plugin-min.js')
+      script(src='../../public/js/min/custom-min.js')
+      // Frameworks
+      script(src='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')
