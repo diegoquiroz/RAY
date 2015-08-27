@@ -1,67 +1,68 @@
 doctype html
 html
-head
-    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
-    |     
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
-    |     
-    meta(name='theme-color', content='#D32F2F')
-    |     
-    title Botgard Web
-    |     
-    meta(name='description', content='')
-    // Materialize CSS
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css')
-    // CSS
-    link(rel='stylesheet', href='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.red-blue.min.css')
-    |     
-    link(rel='stylesheet', href='public/css/plugin.css')
-    |     
-    link(rel='stylesheet', href='public/css/style.css')
-    |     
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
-    |     
-    link(rel='stylesheet', href='node_modules/mdi/css/materialdesignicons.min.css', media='all')
-    |     
-    link(rel='apple-touch-icon', href='/public/img/app_icon.png')
-  body#top.scrollspy
-    // Pre Loader
-    #loader-wrapper
-      #loader
+  head
+      meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
       |     
-      .loader-section.section-left
+      meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
       |     
-      .loader-section.section-right
-    header
-      //-INCLUDE HEADER------>
-      include ./header/template.jade
+      meta(name='theme-color', content='#D32F2F')
+      |     
+      title Botgard Web
+      |     
+      meta(name='description', content='')
+      // Materialize CSS
+      link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css')
+      // CSS
+      link(rel='stylesheet', href='https://storage.googleapis.com/code.getmdl.io/1.0.4/material.red-blue.min.css')
+      |     
+      link(rel='stylesheet', href='public/css/plugin.css')
+      |     
+      link(rel='stylesheet', href='public/css/style.css')
+      |     
+      link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+      |     
+      link(rel='stylesheet', href='node_modules/mdi/css/materialdesignicons.min.css', media='all')
+      |     
+      link(rel='apple-touch-icon', href='/public/img/app_icon.png')
+    body#top.scrollspy
+      // Pre Loader
+      #loader-wrapper
+        #loader
+        |     
+        .loader-section.section-left
+        |     
+        .loader-section.section-right
+      header
+        //-INCLUDE HEADER------>
+        include ./header/nav/template.jade
+        include ./header/header/template.jade
 
-    div(id="intro" class="section scrollspy")
-      //-INCLUDE INTRO------>
-      include ./intro/template.jade    
+      div(id="intro" class="section scrollspy")
+        //-INCLUDE INTRO------>
+        include ./intro/template.jade    
 
-    div(id="work" class="section scrollspy")
-      //-INCLUDE WORK------>
-      include ./work/template.jade
+      div(id="work" class="section scrollspy")
+        //-INCLUDE WORK------>
+        include ./work/template.jade
 
-    div(class="parallax-container")
-      //-INCLUDE PARALLAX------>
-      include ./parallax/template.jade
+      div(class="parallax-container")
+        //-INCLUDE PARALLAX------>
+        include ./parallax/template.jade
 
-    div(id="habilidades" class="section scrollspy")
-      //-INCLUDE ABILITIES------>
-      include ./abilities/template.jade
-      
-    div(id="team" class="section scrollspy")
-      //-INCLUDE TEAM------>
-      include ./team/template.jade
+      div(id="habilidades" class="section scrollspy")
+        //-INCLUDE ABILITIES------>
+        include ./abilities/template.jade
+        
+      div(id="team" class="section scrollspy")
+        //-INCLUDE TEAM------>
+        include ./team/template.jade
 
-    footer(id="contact" class="page-footer default_color scrollspy")
-      //-INCLUDE FOOTER------>
-      include ./footer/template.jade
-    // Scripts
-    script(src='public/js/min/plugin-min.js')
-    |     
-    script(src='public/js/min/custom-min.js')
-    // Materialize JS
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')
+      footer(id="contact" class="page-footer default_color scrollspy")
+        //-INCLUDE FOOTER------>
+        include ./footer/template.jade
+      // Scripts
+      script(src='public/js/min/plugin-min.js')
+      |     
+      script(src='public/js/min/custom-min.js')
+      // Materialize JS
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js')
